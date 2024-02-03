@@ -12,7 +12,7 @@ import jakarta.persistence.Table;
 public class Person {
 	
 	@Id
-	private String document;
+	private String id; 
 	
 	private String name;
 	
