@@ -1,11 +1,10 @@
 package com.hackathon.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
+import java.math.BigDecimal;
+import java.util.UUID;
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 
 import jakarta.persistence.Table;
@@ -14,18 +13,16 @@ import jakarta.persistence.Table;
 @Table(name = "tb_installment")
 
 public class Installment {
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Id
-	private Long id;
-
-	private String installment_number;
-
-	private int value;
-
-	@ManyToOne
-	@JsonIgnoreProperties("installment")
-	private Transaction transaction;
-
 	
+	@Id
+	private UUID id;
+	
+	@ManyToOne
+	@JoinColumn(name = "transaction_id")
+	private Transaction transaction;
+	
+	private int installmentNumber;
+	
+	private BigDecimal value; 
 
 }
