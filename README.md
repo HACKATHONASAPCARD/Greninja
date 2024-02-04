@@ -44,7 +44,7 @@ Clone do repositorio, executar projeto na sua ide
 - cd main
 ```
 ```
-Autores:
+
 ## Autores
 
 - [Amanda Cruz](https://github.com/amandinhacruz)
