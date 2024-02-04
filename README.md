@@ -47,13 +47,13 @@ Clone do repositorio, executar projeto na sua ide
 
 ## Autores
 
-- [Amanda Cruz](https://github.com/amandinhacruz)
+- [@amandinhacruz](https://github.com/amandinhacruz)
 
-- [Gabriel Luiz](https://github.com/gabrielpeloo)
+- [@gabrielpeloo](https://github.com/gabrielpeloo)
 
-- [Natália Oliveira](https://github.com/nataliabpo)
+- [@nataliabpo](https://github.com/nataliabpo)
 
-- [Thais Arantes]([https://github.com/taisarantes)
+- [@taisarantes]([https://github.com/taisarantes)
 
 
 
