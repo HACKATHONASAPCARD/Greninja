@@ -47,6 +47,12 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+    		<groupId>com.rabbitmq</groupId>
+    		<artifactId>amqp-client</artifactId>
+    		<version>5.17.1</version> <!-- Verifique a versão mais recente no repositório Maven -->
+		</dependency>
+
+		<dependency>
     		<groupId>org.json</groupId>
     		<artifactId>json</artifactId>
     		<version>20230618</version>
